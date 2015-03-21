@@ -1,7 +1,7 @@
 setwd("D:/3 курс 2 семестр/Хранилище бизнес информации")
 mydate<-read.table(file="Syria.txt",header =TRUE)
 attach (mydate)
-plot(Year, terrorism, xlab ="Год", ylab ="терроризм",main = "Частота упоминаний характеристик для Сирии",pch = 15, col ="red", type = "b", xlim = c(2000,2014),ylim=c(0,60000))
+plot(Year, terrorism, xlab ="Год", ylab ="Частота",main = "Частота упоминаний характеристик для Сирии",pch = 15, col ="red", type = "b", xlim = c(2000,2014),ylim=c(0,60000))
 lines (Year, terrorist, xlim = c (2000,2014), pch = 16, col = "green", type = "b")
 lines (Year, occupation, xlim = c (2000,2014), pch = 17, col = "blue", type = "b")
 lines (Year, narcotic, xlim = c (2000,2014), pch = 18, col = "pink", type = "b")
