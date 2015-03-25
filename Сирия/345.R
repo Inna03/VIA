@@ -10,3 +10,4 @@ lines (Year, democracy  , xlim = c (2000,2014), pch = 20, col = "orange", type =
 lines (Year, development  , xlim = c (2000,2014), pch = 21, col = "blaCK", type = "b")
 legend ("topleft", inset = 0.01, title = "Характеристики", c("терроризм","террорист","оккупация","наркотики","насилие","демократия","развитие"), lty = c (1,1,1,1,1,1,1) ,pch = c(15,16,17,18,19,20,21), col = c("red","green","blue","pink","purple","orange","black"))
 
+
